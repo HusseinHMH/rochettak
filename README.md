@@ -1,37 +1,45 @@
-# Rochtetak — Connected Healthcare Ecosystem Demo
+# Rochtetak — Connected Healthcare OS
 
-Rochtetak is a self-initiated, bilingual (Arabic/English) healthcare technology product concept for the MENA region. This repository contains an interactive multi-role product demo based on the supplied Master Product Roadmap, MVP Roadmap, and Business Model.
+Rochtetak is a bilingual (Arabic / English) interactive healthcare ecosystem prototype designed around the workflows of clinics, hospitals, laboratories, radiology centers, pharmacies, insurers and patients across Egypt and the wider MENA region.
 
-## Open the demo
-The GitHub Pages entry point is `index.html`. Once Pages is enabled from `main / (root)`, the site is served at:
+## Live demo
+- GitHub Pages: https://husseinhmh.github.io/rochettak/
 
-`https://husseinhmh.github.io/rochettak/`
+## Prototype workspaces
+- Doctor workspace
+- Patient portal
+- Secretary / front desk
+- Department head
+- Hospital management
+- Laboratory
+- Radiology
+- Pharmacy
+- Insurance
+- Platform administration
+- Partner studio
 
-## What the demo covers
-- Product landing experience and ecosystem overview
-- Role switching across Doctor, Patient, Secretary, Pharmacy, Lab/Radiology, Hospital, Insurance, Super Admin, and Partner/Advertiser
-- Doctor workspace: appointments, patient directory, prescription drafting, visit workflow, profile, messaging and analytics
-- Patient journey: doctor discovery, appointment booking, health record, family members, messages, pharmacy orders and marketplace
-- Pharmacy workflow: prescription intake and order status changes
-- Lab/radiology workflow: request scheduling and result-status simulation
-- Hospital operations: departments, staff, service and operating-room overview
-- Insurance: claims review and approval/rejection simulation
-- Marketplace: sample products, cart and mock checkout
-- Payments: subscription tiers, appointment commissions and future RochettakPay concept
-- Content and ads: doctor/patient feeds, advertiser campaign submission and moderation
-- Admin: user/role governance and doctor verification queue
-- AI copilot: guided platform support and workflow explanations; simulated OCR/document extraction and AI-assisted documentation concepts
+## Included interactive journeys
+- Patient directory with 650 synthetic profiles
+- 85 synthetic doctor profiles across 12 departments
+- 3,500 appointment records and a calendar workspace
+- Hospital command center, department structure and leadership roles
+- Document Center for paper/PDF/image intake with illustrative OCR extraction
+- AI note structuring and scripted workflow copilot
+- Regional laboratory starter catalog with configurable sample prices
+- Lab sample tracking, result workflow and radiology operations
+- Pharmacy order queue and inventory concept
+- Insurance claims and pre-authorization concept
+- Dashboard Studio: add, hide, reorder and restore widgets
+- Marketplace, partner and platform administration concepts
+- Arabic / English interface toggle and RTL / LTR layout
 
-## AI implementation status
-The assistant currently uses a scripted demo knowledge base. It is not connected to a live LLM or medical knowledge service. OCR and voice/document workflows are represented as demonstrations only. No AI diagnosis, medication selection, dosage calculation or autonomous prescribing is provided.
+## Important prototype boundaries
+This repository currently contains a static, browser-side prototype. Data is synthetic and generated locally for demonstration. The OCR, AI, voice-to-text, payment, booking, insurance, pharmacy and integration flows are simulations; no real patient data is used, no clinical decisions are made, and no live external healthcare systems are connected.
 
-## Technical status
-This is a static front-end product prototype. Demo state is held in browser memory and is not a persistent database. There is no production authentication, backend API, real-time messaging, payment gateway, pharmacy inventory integration, lab/radiology integration, insurance network, or hospital information system connection.
+The prototype is not a production EMR/HIS and must not be used to store or process real patient information. Production readiness requires secure backend services, authentication, authorization, tenant isolation, audit logging, encrypted document storage, validated integrations, clinical governance, and legal/regulatory review in each target market.
 
-## Safety and privacy
-All names, records, operational metrics, claims, prescriptions, and transactions are fictional. Do not enter real patient information. This prototype is not for clinical use and does not make HIPAA, local privacy-law, or medical-device compliance claims.
+## Local preview
+Open index.html in a modern browser. No build step is required.
 
-## Product documents
-- `docs/DEMO-COVERAGE.md` — roadmap-to-demo coverage and implementation boundaries
-- `docs/AI-SCOPE.md` — AI use cases, demo behavior and clinical guardrails
-- `docs/PORTFOLIO-CASE-STUDY.md` — accurate portfolio narrative and validation plan
+## Product direction
+The product roadmap and business model describe a connected MENA healthcare ecosystem combining clinic SaaS, patient services, diagnostics, pharmacy fulfillment, hospital operations, insurance workflows, marketplace, partner services, payments and AI-assisted administrative workflows.
