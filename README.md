@@ -24,6 +24,7 @@ Rochtetak is a bilingual (Arabic / English) interactive healthcare ecosystem pro
 - 3,500 appointment records and a calendar workspace
 - Hospital command center, department structure and leadership roles
 - Document Center for paper/PDF/image intake with illustrative OCR extraction
+- Context-aware AI Copilot card embedded across every workspace and role dashboard, with role-specific prompt suggestions and Arabic / English responses
 - AI note structuring and scripted workflow copilot
 - Regional laboratory starter catalog with configurable sample prices
 - Lab sample tracking, result workflow and radiology operations
